@@ -24,6 +24,9 @@
 #define STRIP_LEN 47
 #define NUM_PROGRAMS 6
 
+#define TCC0 0
+#define TCC1 1
+
 // Order is important! colors are sent as g, r, b
 typedef struct Color {
 	unsigned char g;
@@ -55,10 +58,15 @@ extern void reset();
 inline void setup() {
 	// Set LED Pin as output
 	sbi(DDRB, LED_PIN);
+	cbi(PORTB, LED_PIN)
 	// Set program change switch pin as input and engage pull-up resistor
 	cbi(DDRB, SWITCH_PIN);
-	// Enable pull-up resistor for input
 	sbi(PORTB, SWITCH_PIN);
+	// Set inputs for detecting usb power mode
+	cbi(DDRD, TCC0);
+	cbi(DDRD, TCC1);
+	cbi(PORTD, TCC0);
+	cbi(PORTD, TCC1);
 	
 	//sbi(PCMSK0, SWITCH_PIN);
 	//sbi(PCIFR, 0);
@@ -203,6 +211,14 @@ void rgb() {
 	hue_val = fmod(hue_val, 360);
 }
 
+void err() {
+	// Turn all LEDs off if the USB port cannot provide adequate power
+	memset(strip, 0, sizeof(Color) * STRIP_LEN);
+	strip[0] = red;
+	show(strip, STRIP_LEN);
+	_delay_ms(25);
+}
+
 int main(void) {
 	
 	// Initialize IO
@@ -212,6 +228,10 @@ int main(void) {
 	memset(strip, 0, sizeof(Color) * STRIP_LEN);
 	
 	while (1) {
-		rgb();
+		if ((PIND & (1 << (TCC0))) == 0 && (PIND & (1 << (TCC1))) == 0) {
+			rgb();
+		} else {
+			err();
+		}
 	}
 }
