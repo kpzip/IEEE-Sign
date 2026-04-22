@@ -224,7 +224,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "2.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -450,7 +450,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -632,7 +632,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://ucsb.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -644,16 +644,32 @@
         "uuid": "13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J1-2,SW1-2,TP1-5,JP1-2,R1-9,Ce1,Y1,#PWR1-122,D1-47,C1-33,U1-2",
     "variants": []
   },
   "sheets": [
     [
       "13ce365d-1ebc-4b37-b0cf-a22bb69a2d67",
       "Root"
+    ],
+    [
+      "789e4ad4-e6c0-4e7a-97ec-a63cb9eb6b75",
+      "LEDs"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "CHKR_APPROVAL": "",
+    "CHKR_DATE": "",
+    "CHKR_NAME": "Alec Petridis",
+    "COMMENT1": "IEEE Lab Sign",
+    "DOC_ID": "",
+    "DRFT_APPROVAL": "",
+    "DRFT_DATE": "4/21/2026",
+    "DRFT_NAME": "Kyle Schmerge",
+    "ENGR_APPROVAL": "",
+    "ENGR_DATE": "4/21/2026",
+    "ENGR_NAME": "Kyle Schmerge"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0
