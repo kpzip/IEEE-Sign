@@ -872,7 +872,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Receptacle"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -882,25 +882,23 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at -10.16 29.21 0)
+				(at 0 22.225 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Receptacle"
-				(at 10.16 29.21 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+				(at 0 19.685 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -925,7 +923,7 @@
 					)
 				)
 			)
-			(property "Description" "USB Full-Featured Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -936,7 +934,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "usb universal serial bus type-C full-featured"
+			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -958,10 +956,10 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
-					(start -0.254 -35.56)
-					(end 0.254 -34.544)
+					(start -0.254 -17.78)
+					(end 0.254 -16.764)
 					(stroke
 						(width 0)
 						(type default)
@@ -971,41 +969,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 25.654)
-					(end 9.144 25.146)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 20.574)
-					(end 9.144 20.066)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 18.034)
-					(end 9.144 17.526)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 12.954)
-					(end 9.144 12.446)
+					(start 10.16 15.494)
+					(end 9.144 14.986)
 					(stroke
 						(width 0)
 						(type default)
@@ -1037,8 +1002,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 5.334)
-					(end 9.144 4.826)
+					(start 10.16 2.794)
+					(end 9.144 2.286)
 					(stroke
 						(width 0)
 						(type default)
@@ -1070,8 +1035,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 -7.366)
-					(end 9.144 -7.874)
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
 					(stroke
 						(width 0)
 						(type default)
@@ -1081,8 +1046,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 -9.906)
-					(end 9.144 -10.414)
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
 					(stroke
 						(width 0)
 						(type default)
@@ -1102,66 +1067,11 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 10.16 -17.526)
-					(end 9.144 -18.034)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -22.606)
-					(end 9.144 -23.114)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -25.146)
-					(end 9.144 -25.654)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -30.226)
-					(end 9.144 -30.734)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -32.766)
-					(end 9.144 -33.274)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "USB_C_Receptacle_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
-					(start -10.16 27.94)
-					(end 10.16 -35.56)
+					(start -10.16 17.78)
+					(end 10.16 -17.78)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1277,8 +1187,6 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "USB_C_Receptacle_1_1"
 				(circle
 					(center -2.54 1.143)
 					(radius 0.635)
@@ -1360,8 +1268,10 @@
 						(type outline)
 					)
 				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
-					(at 0 -40.64 90)
+					(at 0 -22.86 90)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -1378,44 +1288,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -10.16 180)
-					(length 5.08)
-					(name "TX1+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -7.62 180)
-					(length 5.08)
-					(name "TX1-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 15.24 25.4 180)
+					(at 15.24 15.24 180)
 					(length 5.08)
 					(name "VBUS"
 						(effects
@@ -1433,7 +1307,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 20.32 180)
+					(at 15.24 10.16 180)
 					(length 5.08)
 					(name "CC1"
 						(effects
@@ -1451,7 +1325,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 7.62 180)
+					(at 15.24 -2.54 180)
 					(length 5.08)
 					(name "D+"
 						(effects
@@ -1469,7 +1343,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 12.7 180)
+					(at 15.24 2.54 180)
 					(length 5.08)
 					(name "D-"
 						(effects
@@ -1487,7 +1361,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -30.48 180)
+					(at 15.24 -12.7 180)
 					(length 5.08)
 					(name "SBU1"
 						(effects
@@ -1505,7 +1379,7 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 25.4 180)
+					(at 15.24 15.24 180)
 					(length 5.08)
 					(hide yes)
 					(name "VBUS"
@@ -1523,44 +1397,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -15.24 180)
-					(length 5.08)
-					(name "RX2-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -17.78 180)
-					(length 5.08)
-					(name "RX2+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 0 -40.64 90)
+					(at 0 -22.86 90)
 					(length 5.08)
 					(hide yes)
 					(name "GND"
@@ -1579,7 +1417,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -40.64 90)
+					(at 0 -22.86 90)
 					(length 5.08)
 					(hide yes)
 					(name "GND"
@@ -1597,44 +1435,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -25.4 180)
-					(length 5.08)
-					(name "TX2+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -22.86 180)
-					(length 5.08)
-					(name "TX2-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 15.24 25.4 180)
+					(at 15.24 15.24 180)
 					(length 5.08)
 					(hide yes)
 					(name "VBUS"
@@ -1653,7 +1455,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 17.78 180)
+					(at 15.24 7.62 180)
 					(length 5.08)
 					(name "CC2"
 						(effects
@@ -1671,7 +1473,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 5.08 180)
+					(at 15.24 -5.08 180)
 					(length 5.08)
 					(name "D+"
 						(effects
@@ -1689,7 +1491,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 10.16 180)
+					(at 15.24 0 180)
 					(length 5.08)
 					(name "D-"
 						(effects
@@ -1707,7 +1509,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -33.02 180)
+					(at 15.24 -15.24 180)
 					(length 5.08)
 					(name "SBU2"
 						(effects
@@ -1725,7 +1527,7 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 25.4 180)
+					(at 15.24 15.24 180)
 					(length 5.08)
 					(hide yes)
 					(name "VBUS"
@@ -1743,44 +1545,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name "RX1-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "RX1+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 0 -40.64 90)
+					(at 0 -22.86 90)
 					(length 5.08)
 					(hide yes)
 					(name "GND"
@@ -1799,7 +1565,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -40.64 90)
+					(at -7.62 -22.86 90)
 					(length 5.08)
 					(name "SHIELD"
 						(effects
@@ -3207,6 +2973,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -3625,6 +3490,88 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "symbols:LOGO"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LG"
+				(at 0 4.572 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LOGO"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LOGO_1_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "LOGO"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 285.75 81.28)
@@ -3717,7 +3664,7 @@
 		(uuid "90637324-d33d-4ff7-97df-6a4de7835f2e")
 	)
 	(junction
-		(at 346.71 149.86)
+		(at 346.71 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9945b321-7a4d-43e7-8fcc-401e7c2a545b")
@@ -3805,28 +3752,8 @@
 		(uuid "36759b59-6daf-4c13-9c92-2de18c0f297a")
 	)
 	(no_connect
-		(at 327.66 109.22)
-		(uuid "38fb051e-2318-4feb-8c6b-73dee7b04918")
-	)
-	(no_connect
-		(at 327.66 124.46)
-		(uuid "3e1d1a5e-b7a3-4743-8d56-f8deecb836d4")
-	)
-	(no_connect
 		(at 154.94 127)
 		(uuid "4cfaf2d9-6a76-495a-8873-24ac541e6cb9")
-	)
-	(no_connect
-		(at 327.66 139.7)
-		(uuid "4fba0051-3ee9-47e3-810e-bb5bcfb1dae1")
-	)
-	(no_connect
-		(at 327.66 114.3)
-		(uuid "674ff36c-4b0a-4b47-b29d-7b5baac9669b")
-	)
-	(no_connect
-		(at 327.66 132.08)
-		(uuid "6937ea36-63a3-4dbb-b251-d480fe24c3b2")
 	)
 	(no_connect
 		(at 154.94 88.9)
@@ -3835,10 +3762,6 @@
 	(no_connect
 		(at 154.94 129.54)
 		(uuid "8d15edf6-2fae-44ed-9230-7c68902bae6e")
-	)
-	(no_connect
-		(at 327.66 129.54)
-		(uuid "953c2b18-8faa-4ddd-a112-ecedcc982dd7")
 	)
 	(no_connect
 		(at 154.94 111.76)
@@ -3857,20 +3780,12 @@
 		(uuid "bc4a6443-b503-4681-a5e3-3b4e2ea5f809")
 	)
 	(no_connect
-		(at 327.66 106.68)
-		(uuid "c2ce45ea-526f-480c-8933-8ba3d0cd693c")
+		(at 327.66 111.76)
+		(uuid "c4a2f012-59d6-4661-8743-7a5e27f5d26a")
 	)
 	(no_connect
-		(at 327.66 116.84)
-		(uuid "c4b13e32-d220-4577-a4a2-28856b6f450a")
-	)
-	(no_connect
-		(at 327.66 121.92)
-		(uuid "e9d62556-0128-40cc-96e2-83535db96519")
-	)
-	(no_connect
-		(at 327.66 137.16)
-		(uuid "ffad57cd-73c0-4b66-a13d-5fbaeb23a2cf")
+		(at 327.66 109.22)
+		(uuid "f86fe4c9-4be2-466b-9bce-59f41f229231")
 	)
 	(wire
 		(pts
@@ -3944,7 +3859,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 149.86) (xy 346.71 154.94)
+			(xy 346.71 121.92) (xy 346.71 127)
 		)
 		(stroke
 			(width 0)
@@ -4041,6 +3956,16 @@
 			(type default)
 		)
 		(uuid "20afbed1-5644-4226-9f5e-652eb705892f")
+	)
+	(wire
+		(pts
+			(xy 312.42 149.86) (xy 312.42 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22037a0e-f7be-4757-9e61-4284bc72e0b5")
 	)
 	(wire
 		(pts
@@ -4294,7 +4219,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 149.86) (xy 346.71 149.86)
+			(xy 342.9 121.92) (xy 346.71 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4344,7 +4269,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 147.32) (xy 342.9 149.86)
+			(xy 342.9 119.38) (xy 342.9 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4394,7 +4319,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 149.86) (xy 350.52 147.32)
+			(xy 350.52 121.92) (xy 350.52 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4664,7 +4589,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 149.86) (xy 350.52 149.86)
+			(xy 346.71 121.92) (xy 350.52 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5051,6 +4976,16 @@
 			(type default)
 		)
 		(uuid "d2753ad8-31c9-4e50-b866-361a886f7020")
+	)
+	(wire
+		(pts
+			(xy 312.42 134.62) (xy 312.42 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d34e7ec8-2a7a-4d08-aba6-49c39d120367")
 	)
 	(wire
 		(pts
@@ -5524,7 +5459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00519c03-abf6-4fab-b4a8-666fd6556c84")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR06"
 			(at 220.98 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5584,7 +5519,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR011")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5602,7 +5537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00e04cf0-fee1-4581-9b4e-e3f76c5e3df0")
-		(property "Reference" "C8"
+		(property "Reference" "C1"
 			(at 154.94 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5624,7 +5559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 152.0952 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5657,6 +5592,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "CL31B105KAHNNNE"
+			(at 151.13 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 151.13 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "1276-1097-1-ND"
+			(at 151.13 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "34522347-150b-4b8d-a5e7-e2dcfb9c73cb")
 		)
@@ -5666,7 +5634,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "C8")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5684,7 +5652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0264fd11-fa56-4a48-931a-cad0d9380939")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR014"
 			(at 92.71 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5744,7 +5712,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR06")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5762,7 +5730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c36aa05-414c-4bb1-98db-940792b21f3f")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR08"
 			(at 275.59 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5822,7 +5790,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR0120")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5840,7 +5808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11f222c0-6c5b-461d-8f3e-4965413da9db")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR016"
 			(at 105.41 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5900,7 +5868,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR01")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5962,6 +5930,39 @@
 			)
 		)
 		(property "Description" "Quad Differential Comparators, SOIC-14"
+			(at 231.14 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "LP2901D"
+			(at 231.14 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 231.14 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "296-9574-5-ND"
 			(at 231.14 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -6056,7 +6057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 256.286 197.104 90)
 			(hide yes)
 			(show_name no)
@@ -6079,6 +6080,39 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 255.27 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC1206FR-078K2L"
+			(at 255.27 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 255.27 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "311-8.20KFRCT-ND"
 			(at 255.27 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -6116,7 +6150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a9ba18f-30cf-4fba-aaf2-9db32cb8c216")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR04"
 			(at 66.04 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6176,7 +6210,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR09")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6194,7 +6228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b2c42e9-3f22-45d2-a4ac-8cf729f07081")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR011"
 			(at 295.91 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6254,7 +6288,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR016")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6272,7 +6306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21ca209a-3e3e-4206-8af0-7cd6d3864a94")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR010"
 			(at 285.75 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6332,7 +6366,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR018")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6350,7 +6384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "220161c3-602b-44ba-bf4c-143f467f8cb6")
-		(property "Reference" "C9"
+		(property "Reference" "C6"
 			(at 289.56 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6372,7 +6406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 286.7152 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6405,6 +6439,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "CL31A106MAHNNNE"
+			(at 285.75 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 285.75 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "1276-1181-1-ND"
+			(at 285.75 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "72c7b426-5473-41b0-a4a0-3d924aed7747")
 		)
@@ -6414,7 +6481,198 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "C9")
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 312.42 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25761b6c-ab09-42d1-82d4-407dfe521c57")
+		(property "Reference" "C10"
+			(at 316.23 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 316.23 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 313.3852 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 312.42 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C1206C104K5RACTU"
+			(at 312.42 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 312.42 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "399-C1206C104K5RACTUCT-ND"
+			(at 312.42 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "abfc02d6-d20e-4d4a-b078-922fdbffa92c")
+		)
+		(pin "2"
+			(uuid "c808eef7-ed88-4121-a3d9-66f271cd773b")
+		)
+		(instances
+			(project "ieee-sign"
+				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 106.68 229.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29eb76e3-1292-4a2c-bfb7-ae4954ef80b9")
+		(property "Reference" "H3"
+			(at 109.22 228.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 109.22 231.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 106.68 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 106.68 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ieee-sign"
+				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -6454,7 +6712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 67.056 72.644 90)
 			(hide yes)
 			(show_name no)
@@ -6487,6 +6745,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "RMCF1206FT10K0"
+			(at 66.04 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 66.04 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "RMCF1206FT10K0CT-ND"
+			(at 66.04 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a199f3c8-f94d-4732-b66b-4a074f1d261a")
 		)
@@ -6497,6 +6788,84 @@
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 312.42 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "313c2378-addf-48a0-b024-385e9c0afb95")
+		(property "Reference" "#PWR021"
+			(at 312.42 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 312.42 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 312.42 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80422f75-bf07-468e-8cf8-65f642cdd230")
+		)
+		(instances
+			(project "ieee-sign"
+				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6535,7 +6904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 305.816 98.044 90)
 			(hide yes)
 			(show_name no)
@@ -6558,6 +6927,39 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 304.8 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC1206FR-075K1L"
+			(at 304.8 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 304.8 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "311-5.10KFRCT-ND"
 			(at 304.8 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -6595,7 +6997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3495fd3d-e27d-45f7-86fd-2395229cbf7f")
-		(property "Reference" "C1"
+		(property "Reference" "C9"
 			(at 109.22 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6617,7 +7019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 106.3752 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6650,6 +7052,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "CL31B105KAHNNNE"
+			(at 105.41 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 105.41 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "1276-1097-1-ND"
+			(at 105.41 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3c5ce23d-5a24-4ef1-be82-f4d103ee407e")
 		)
@@ -6659,7 +7094,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "C1")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6677,7 +7112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "362b6a86-84e3-42b1-b635-8dbd803698ea")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR019"
 			(at 49.53 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -6737,7 +7172,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR010")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6755,7 +7190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38af0329-32f2-48f5-a59d-6616def86c76")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR012"
 			(at 304.8 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6815,7 +7250,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR017")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6833,7 +7268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a21220a-0430-4487-a5a3-c66db59eaa3d")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 69.85 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6855,7 +7290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 67.0052 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6888,6 +7323,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "C1206C104K5RACTU"
+			(at 66.04 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 66.04 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "399-C1206C104K5RACTUCT-ND"
+			(at 66.04 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9cd8085e-806f-471e-876f-15fb85b5f7d3")
 		)
@@ -6897,7 +7365,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6915,7 +7383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dd12ed0-19c0-4b7a-8db6-5ba5fc04b57c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR05"
 			(at 285.75 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6975,7 +7443,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR014")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7015,7 +7483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 163.5252 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7038,6 +7506,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 162.56 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C1206C104K5RACTU"
+			(at 162.56 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 162.56 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "399-C1206C104K5RACTUCT-ND"
 			(at 162.56 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7075,7 +7576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42da562a-09c8-4d52-804b-08d45863a89f")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR01"
 			(at 151.13 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7135,7 +7636,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7147,13 +7648,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49bd7dcc-8708-4a01-9baa-931daab0a874")
-		(property "Reference" "TP1"
+		(property "Reference" "TP5"
 			(at 106.68 184.6579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7175,7 +7676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 109.22 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -7208,13 +7709,46 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 104.14 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 104.14 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 104.14 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f703029c-6c15-4576-a849-7584178646aa")
 		)
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "TP1")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -7232,7 +7766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d17677f-3976-46fe-a1db-099dd2df9bd2")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 81.28 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7254,7 +7788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 78.4352 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -7287,6 +7821,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "C0603C200J5GACTU"
+			(at 77.47 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 77.47 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "399-C0603C200J5GACTUCT-ND"
+			(at 77.47 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "32036033-2e6f-49eb-8b5d-0aa18bb6af11")
 		)
@@ -7296,7 +7863,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7360,6 +7927,39 @@
 			)
 		)
 		(property "Description" "16MHz, 32kB Flash, 1kB SRAM, 1kB EEPROM, TQFP-32"
+			(at 137.16 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "ATMEGA32U2-AUR"
+			(at 137.16 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 137.16 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "ATMEGA32U2-AURCT-ND"
 			(at 137.16 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7481,13 +8081,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52098f78-2793-474e-9b0d-ae0760a63453")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 267.9699 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7509,7 +8109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 274.32 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7542,13 +8142,46 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 269.24 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 269.24 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 269.24 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2f9d4e4f-76bd-4b4c-9f69-de5eb6c1976d")
 		)
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -7566,7 +8199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "560f9363-b226-451c-a3fa-94a7c7f775b5")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR023"
 			(at 135.89 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -7626,7 +8259,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR03")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7666,7 +8299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 177.4952 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7689,6 +8322,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 176.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C1206C104K5RACTU"
+			(at 176.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 176.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "399-C1206C104K5RACTUCT-ND"
 			(at 176.53 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7747,7 +8413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 256.286 235.204 90)
 			(hide yes)
 			(show_name no)
@@ -7770,6 +8436,39 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 255.27 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RNCP1206FTD1K50"
+			(at 255.27 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 255.27 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "RNCP1206FTD1K50CT-ND"
 			(at 255.27 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -7807,7 +8506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ba8a808-b14d-43c9-b9e9-5fb3a2552af0")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 220.98 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7867,7 +8566,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7906,7 +8605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 256.286 214.884 90)
 			(hide yes)
 			(show_name no)
@@ -7929,6 +8628,39 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 255.27 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RNCP1206FTD1K50"
+			(at 255.27 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 255.27 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "RNCP1206FTD1K50CT-ND"
 			(at 255.27 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -8021,47 +8753,80 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "LP2901D"
+			(at 299.72 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 299.72 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "296-9574-5-ND"
+			(at 299.72 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "f27aaea3-c190-4a2f-8068-d9a3f22111bd")
+			(uuid "f27aaea3-c190-4a2f-8068-d9a3f22111be")
 		)
 		(pin "1"
-			(uuid "0258fde5-d1f0-4837-9eeb-bc4728835560")
+			(uuid "0258fde5-d1f0-4837-9eeb-bc4728835561")
 		)
 		(pin "5"
-			(uuid "af8cddbe-110a-46bc-ba15-8044fd0febff")
+			(uuid "af8cddbe-110a-46bc-ba15-8044fd0fec00")
 		)
 		(pin "4"
-			(uuid "c5d8798b-62c5-4b27-b8e3-a4431c9345ea")
+			(uuid "c5d8798b-62c5-4b27-b8e3-a4431c9345eb")
 		)
 		(pin "10"
-			(uuid "2a382733-3a22-43f6-a2d1-51ad5554a3ad")
+			(uuid "2a382733-3a22-43f6-a2d1-51ad5554a3ae")
 		)
 		(pin "12"
-			(uuid "1486c06b-f3ef-4f74-a3d9-33cb8c7aadf4")
+			(uuid "1486c06b-f3ef-4f74-a3d9-33cb8c7aadf5")
 		)
 		(pin "9"
-			(uuid "c3dba9c6-db4d-4397-8ccf-464a194b6152")
+			(uuid "c3dba9c6-db4d-4397-8ccf-464a194b6153")
 		)
 		(pin "14"
-			(uuid "20c96bc9-7c62-4c92-88cd-54d5aa64ea66")
+			(uuid "20c96bc9-7c62-4c92-88cd-54d5aa64ea67")
 		)
 		(pin "3"
-			(uuid "9fc01ee9-5961-48bb-a7b5-a75c94cd9374")
+			(uuid "9fc01ee9-5961-48bb-a7b5-a75c94cd9375")
 		)
 		(pin "8"
-			(uuid "4f42047a-bdb5-4759-8c2f-0c5f643c5540")
+			(uuid "4f42047a-bdb5-4759-8c2f-0c5f643c5541")
 		)
 		(pin "11"
-			(uuid "dcfe5333-af81-436a-8725-f3e40017507f")
+			(uuid "dcfe5333-af81-436a-8725-f3e400175080")
 		)
 		(pin "13"
-			(uuid "a44b5fe0-2dc4-45f4-8151-6acfc1b3eb87")
+			(uuid "a44b5fe0-2dc4-45f4-8151-6acfc1b3eb88")
 		)
 		(pin "6"
-			(uuid "4b3ec951-f9f6-4e09-ba4e-5d343db483f7")
+			(uuid "4b3ec951-f9f6-4e09-ba4e-5d343db483f8")
 		)
 		(pin "7"
-			(uuid "5be24e67-9ecc-4112-9087-7a2ead99f9a0")
+			(uuid "5be24e67-9ecc-4112-9087-7a2ead99f9a1")
 		)
 		(instances
 			(project "ieee-sign"
@@ -8162,7 +8927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73b79b40-98d3-4b30-9809-ceda840a29fa")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 66.04 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8222,7 +8987,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8250,7 +9015,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "16MHz"
 			(at 85.09 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8260,7 +9025,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC49-U_Vertical"
 			(at 85.09 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8283,6 +9048,39 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
+			(at 85.09 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "16M20P2/49US"
+			(at 85.09 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 85.09 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "3155-16M20P2/49US-ND"
 			(at 85.09 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8320,7 +9118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b9c9c09-35eb-4152-b8d5-8284e1521bb0")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR017"
 			(at 255.27 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8380,7 +9178,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR022")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8388,7 +9186,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 346.71 154.94 0)
+		(at 346.71 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8398,8 +9196,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8404c569-a4bc-4a6a-a480-5846546fede1")
-		(property "Reference" "#PWR015"
-			(at 346.71 161.29 0)
+		(property "Reference" "#PWR018"
+			(at 346.71 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8410,7 +9208,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 346.71 160.02 0)
+			(at 346.71 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8420,7 +9218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 346.71 154.94 0)
+			(at 346.71 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8431,7 +9229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 346.71 154.94 0)
+			(at 346.71 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8442,7 +9240,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 346.71 154.94 0)
+			(at 346.71 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8458,7 +9256,85 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR015")
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 312.42 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ba00842-5d44-452b-bad6-2392bae3e20c")
+		(property "Reference" "#PWR025"
+			(at 312.42 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 312.42 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 312.42 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a9e3de8-eec6-4bf3-880f-b4bce83f8551")
+		)
+		(instances
+			(project "ieee-sign"
+				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8476,7 +9352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93f7e01c-0987-4836-a30d-fce84fc4eb20")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR022"
 			(at 185.42 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8536,7 +9412,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR013")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8608,47 +9484,80 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "LP2901D"
+			(at 231.14 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 231.14 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "296-9574-5-ND"
+			(at 231.14 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "f27aaea3-c190-4a2f-8068-d9a3f22111bd")
+			(uuid "f27aaea3-c190-4a2f-8068-d9a3f22111bf")
 		)
 		(pin "1"
-			(uuid "0258fde5-d1f0-4837-9eeb-bc4728835560")
+			(uuid "0258fde5-d1f0-4837-9eeb-bc4728835562")
 		)
 		(pin "5"
-			(uuid "af8cddbe-110a-46bc-ba15-8044fd0febff")
+			(uuid "af8cddbe-110a-46bc-ba15-8044fd0fec01")
 		)
 		(pin "4"
-			(uuid "c5d8798b-62c5-4b27-b8e3-a4431c9345ea")
+			(uuid "c5d8798b-62c5-4b27-b8e3-a4431c9345ec")
 		)
 		(pin "10"
-			(uuid "2a382733-3a22-43f6-a2d1-51ad5554a3ad")
+			(uuid "2a382733-3a22-43f6-a2d1-51ad5554a3af")
 		)
 		(pin "12"
-			(uuid "1486c06b-f3ef-4f74-a3d9-33cb8c7aadf4")
+			(uuid "1486c06b-f3ef-4f74-a3d9-33cb8c7aadf6")
 		)
 		(pin "9"
-			(uuid "c3dba9c6-db4d-4397-8ccf-464a194b6152")
+			(uuid "c3dba9c6-db4d-4397-8ccf-464a194b6154")
 		)
 		(pin "14"
-			(uuid "20c96bc9-7c62-4c92-88cd-54d5aa64ea66")
+			(uuid "20c96bc9-7c62-4c92-88cd-54d5aa64ea68")
 		)
 		(pin "3"
-			(uuid "9fc01ee9-5961-48bb-a7b5-a75c94cd9374")
+			(uuid "9fc01ee9-5961-48bb-a7b5-a75c94cd9376")
 		)
 		(pin "8"
-			(uuid "4f42047a-bdb5-4759-8c2f-0c5f643c5540")
+			(uuid "4f42047a-bdb5-4759-8c2f-0c5f643c5542")
 		)
 		(pin "11"
-			(uuid "dcfe5333-af81-436a-8725-f3e40017507f")
+			(uuid "dcfe5333-af81-436a-8725-f3e400175081")
 		)
 		(pin "13"
-			(uuid "a44b5fe0-2dc4-45f4-8151-6acfc1b3eb87")
+			(uuid "a44b5fe0-2dc4-45f4-8151-6acfc1b3eb89")
 		)
 		(pin "6"
-			(uuid "4b3ec951-f9f6-4e09-ba4e-5d343db483f7")
+			(uuid "4b3ec951-f9f6-4e09-ba4e-5d343db483f9")
 		)
 		(pin "7"
-			(uuid "5be24e67-9ecc-4112-9087-7a2ead99f9a0")
+			(uuid "5be24e67-9ecc-4112-9087-7a2ead99f9a2")
 		)
 		(instances
 			(project "ieee-sign"
@@ -8671,7 +9580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95d6215f-8d26-4738-820a-494c888c7cf7")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR027"
 			(at 255.27 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -8731,7 +9640,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR023")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8770,7 +9679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 296.926 98.044 90)
 			(hide yes)
 			(show_name no)
@@ -8793,6 +9702,39 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 295.91 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC1206FR-075K1L"
+			(at 295.91 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 295.91 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "311-5.10KFRCT-ND"
 			(at 295.91 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8884,47 +9826,80 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "LP2901D"
+			(at 231.14 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 231.14 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "296-9574-5-ND"
+			(at 231.14 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "f27aaea3-c190-4a2f-8068-d9a3f22111bd")
+			(uuid "f27aaea3-c190-4a2f-8068-d9a3f22111c0")
 		)
 		(pin "1"
-			(uuid "0258fde5-d1f0-4837-9eeb-bc4728835560")
+			(uuid "0258fde5-d1f0-4837-9eeb-bc4728835563")
 		)
 		(pin "5"
-			(uuid "af8cddbe-110a-46bc-ba15-8044fd0febff")
+			(uuid "af8cddbe-110a-46bc-ba15-8044fd0fec02")
 		)
 		(pin "4"
-			(uuid "c5d8798b-62c5-4b27-b8e3-a4431c9345ea")
+			(uuid "c5d8798b-62c5-4b27-b8e3-a4431c9345ed")
 		)
 		(pin "10"
-			(uuid "2a382733-3a22-43f6-a2d1-51ad5554a3ad")
+			(uuid "2a382733-3a22-43f6-a2d1-51ad5554a3b0")
 		)
 		(pin "12"
-			(uuid "1486c06b-f3ef-4f74-a3d9-33cb8c7aadf4")
+			(uuid "1486c06b-f3ef-4f74-a3d9-33cb8c7aadf7")
 		)
 		(pin "9"
-			(uuid "c3dba9c6-db4d-4397-8ccf-464a194b6152")
+			(uuid "c3dba9c6-db4d-4397-8ccf-464a194b6155")
 		)
 		(pin "14"
-			(uuid "20c96bc9-7c62-4c92-88cd-54d5aa64ea66")
+			(uuid "20c96bc9-7c62-4c92-88cd-54d5aa64ea69")
 		)
 		(pin "3"
-			(uuid "9fc01ee9-5961-48bb-a7b5-a75c94cd9374")
+			(uuid "9fc01ee9-5961-48bb-a7b5-a75c94cd9377")
 		)
 		(pin "8"
-			(uuid "4f42047a-bdb5-4759-8c2f-0c5f643c5540")
+			(uuid "4f42047a-bdb5-4759-8c2f-0c5f643c5543")
 		)
 		(pin "11"
-			(uuid "dcfe5333-af81-436a-8725-f3e40017507f")
+			(uuid "dcfe5333-af81-436a-8725-f3e400175082")
 		)
 		(pin "13"
-			(uuid "a44b5fe0-2dc4-45f4-8151-6acfc1b3eb87")
+			(uuid "a44b5fe0-2dc4-45f4-8151-6acfc1b3eb8a")
 		)
 		(pin "6"
-			(uuid "4b3ec951-f9f6-4e09-ba4e-5d343db483f7")
+			(uuid "4b3ec951-f9f6-4e09-ba4e-5d343db483fa")
 		)
 		(pin "7"
-			(uuid "5be24e67-9ecc-4112-9087-7a2ead99f9a0")
+			(uuid "5be24e67-9ecc-4112-9087-7a2ead99f9a3")
 		)
 		(instances
 			(project "ieee-sign"
@@ -9025,7 +10000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3664f3b-7452-4f6b-aed1-5f1095803592")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR07"
 			(at 269.24 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9086,7 +10061,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR0119")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9158,6 +10133,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "PTS645SL43-2 LFS"
+			(at 185.42 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 185.42 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "CKN9098-ND"
+			(at 185.42 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1987403a-5aaf-472a-a6fb-c71c7aafcd1e")
 		)
@@ -9179,13 +10187,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac9b98f0-090d-44b2-b041-e5dd3206b8ba")
-		(property "Reference" "TP4"
+		(property "Reference" "TP3"
 			(at 303.5299 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9207,7 +10215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 309.88 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9240,13 +10248,207 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 304.8 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 304.8 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 304.8 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "42017135-fdfd-4bfc-9111-5447f8ca12f9")
 		)
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "TP4")
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 342.9 96.52 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad252857-8f10-4438-8327-7a6bea9a14ed")
+		(property "Reference" "J2"
+			(at 354.33 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "USB_C_Receptacle"
+			(at 354.33 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+			(at 339.09 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 339.09 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 342.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "USB4105-GF-A"
+			(at 342.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 342.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "2073-USB4105-GF-ACT-ND"
+			(at 342.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A4"
+			(uuid "362f2675-235d-4024-8348-781c2f1a7e40")
+		)
+		(pin "A6"
+			(uuid "5b96b9d2-f95e-4f19-90cf-83196874e80e")
+		)
+		(pin "B9"
+			(uuid "94848daa-df0f-41fe-8550-8681880f99df")
+		)
+		(pin "B7"
+			(uuid "6cfb5a75-1b50-43db-b378-8d478132a006")
+		)
+		(pin "A5"
+			(uuid "7be8d288-8c2e-452a-a350-9fec0c6d10d1")
+		)
+		(pin "B12"
+			(uuid "d0a62b50-8541-44e1-a38d-60d2a4ca5a35")
+		)
+		(pin "B5"
+			(uuid "eb477a1f-a17c-45ab-8f62-08e9a34e1247")
+		)
+		(pin "B8"
+			(uuid "6957d896-af01-428c-a956-503cedaa1b09")
+		)
+		(pin "B6"
+			(uuid "b8cc2212-71a3-4656-a57a-dcd11d0352c8")
+		)
+		(pin "SH"
+			(uuid "23fd47c8-631d-4824-874a-42b14f02aede")
+		)
+		(pin "A7"
+			(uuid "caae7352-57c1-41f4-901b-67fc86d90a66")
+		)
+		(pin "A8"
+			(uuid "4a728819-bed2-4444-89e8-634e6f449e92")
+		)
+		(pin "A9"
+			(uuid "592e6e2c-d9ed-459c-8c97-7181c010263a")
+		)
+		(pin "A12"
+			(uuid "490d4de0-907b-49e6-b1bb-c8fb3e800be5")
+		)
+		(pin "B1"
+			(uuid "3cc1f663-3abd-47e4-99ba-0e6e137f295a")
+		)
+		(pin "B4"
+			(uuid "9a096df7-e9a4-499a-b793-2fd531643c65")
+		)
+		(pin "A1"
+			(uuid "f16f1850-fa43-4789-8382-99988705a6bf")
+		)
+		(instances
+			(project "ieee-sign"
+				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -9258,13 +10460,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4a1eae3-c82f-411a-9e70-2f47de645f4d")
-		(property "Reference" "TP5"
+		(property "Reference" "TP4"
 			(at 308.6099 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9286,7 +10488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 314.96 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9319,13 +10521,46 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 309.88 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 309.88 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 309.88 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "445af654-7854-4e09-ab72-dbb5d69d744f")
 		)
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "TP5")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -9398,6 +10633,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "PTS645SL43-2 LFS"
+			(at 49.53 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 49.53 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "CKN9098-ND"
+			(at 49.53 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1cd9429c-c41f-45b6-a543-d3969f44a3aa")
 		)
@@ -9444,7 +10712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 173.99 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9477,6 +10745,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 173.99 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 173.99 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 173.99 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e8978170-f6dc-4dc2-a8cc-bd7a50e99c8f")
 		)
@@ -9493,6 +10794,115 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:LOGO")
+		(at 144.78 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc1d7e8e-c21e-40aa-aeb6-9643e6e370fa")
+		(property "Reference" "LG1"
+			(at 148.59 224.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UCSB IEEE Logo"
+			(at 148.59 227.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Footprints:UCSB_IEEE_Logo"
+			(at 144.78 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 144.78 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 144.78 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ieee-sign"
+				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
+					(reference "LG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 255.27 147.32 0)
 		(unit 1)
@@ -9503,7 +10913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "beff2e8c-d92f-46eb-8e75-ef66172ab707")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 256.794 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9525,7 +10935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 256.286 147.574 90)
 			(hide yes)
 			(show_name no)
@@ -9558,6 +10968,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "RNCP1206FTD1K50"
+			(at 255.27 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 255.27 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "RNCP1206FTD1K50CT-ND"
+			(at 255.27 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e181973e-fd53-4a35-945c-be44adbfd132")
 		)
@@ -9567,7 +11010,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9585,7 +11028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf93757e-ef7a-41a0-baa7-053d06efebf7")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR024"
 			(at 297.18 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -9645,7 +11088,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR019")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9662,7 +11105,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5a727a0-8209-4a4b-aad4-0c0aa3ae50b8")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 256.794 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9684,7 +11127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 256.286 129.794 90)
 			(hide yes)
 			(show_name no)
@@ -9717,6 +11160,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "RC1206FR-078K2L"
+			(at 255.27 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 255.27 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "311-8.20KFRCT-ND"
+			(at 255.27 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3ee40675-b50a-4d90-bf63-adc4b6ce5389")
 		)
@@ -9726,7 +11202,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9765,7 +11241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 256.286 167.894 90)
 			(hide yes)
 			(show_name no)
@@ -9788,6 +11264,39 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 255.27 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RNCP1206FTD1K50"
+			(at 255.27 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 255.27 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "RNCP1206FTD1K50CT-ND"
 			(at 255.27 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -9879,53 +11388,238 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "LP2901D"
+			(at 231.14 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 231.14 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "296-9574-5-ND"
+			(at 231.14 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "f27aaea3-c190-4a2f-8068-d9a3f22111bd")
+			(uuid "f27aaea3-c190-4a2f-8068-d9a3f22111c1")
 		)
 		(pin "1"
-			(uuid "0258fde5-d1f0-4837-9eeb-bc4728835560")
+			(uuid "0258fde5-d1f0-4837-9eeb-bc4728835564")
 		)
 		(pin "5"
-			(uuid "af8cddbe-110a-46bc-ba15-8044fd0febff")
+			(uuid "af8cddbe-110a-46bc-ba15-8044fd0fec03")
 		)
 		(pin "4"
-			(uuid "c5d8798b-62c5-4b27-b8e3-a4431c9345ea")
+			(uuid "c5d8798b-62c5-4b27-b8e3-a4431c9345ee")
 		)
 		(pin "10"
-			(uuid "2a382733-3a22-43f6-a2d1-51ad5554a3ad")
+			(uuid "2a382733-3a22-43f6-a2d1-51ad5554a3b1")
 		)
 		(pin "12"
-			(uuid "1486c06b-f3ef-4f74-a3d9-33cb8c7aadf4")
+			(uuid "1486c06b-f3ef-4f74-a3d9-33cb8c7aadf8")
 		)
 		(pin "9"
-			(uuid "c3dba9c6-db4d-4397-8ccf-464a194b6152")
+			(uuid "c3dba9c6-db4d-4397-8ccf-464a194b6156")
 		)
 		(pin "14"
-			(uuid "20c96bc9-7c62-4c92-88cd-54d5aa64ea66")
+			(uuid "20c96bc9-7c62-4c92-88cd-54d5aa64ea6a")
 		)
 		(pin "3"
-			(uuid "9fc01ee9-5961-48bb-a7b5-a75c94cd9374")
+			(uuid "9fc01ee9-5961-48bb-a7b5-a75c94cd9378")
 		)
 		(pin "8"
-			(uuid "4f42047a-bdb5-4759-8c2f-0c5f643c5540")
+			(uuid "4f42047a-bdb5-4759-8c2f-0c5f643c5544")
 		)
 		(pin "11"
-			(uuid "dcfe5333-af81-436a-8725-f3e40017507f")
+			(uuid "dcfe5333-af81-436a-8725-f3e400175083")
 		)
 		(pin "13"
-			(uuid "a44b5fe0-2dc4-45f4-8151-6acfc1b3eb87")
+			(uuid "a44b5fe0-2dc4-45f4-8151-6acfc1b3eb8b")
 		)
 		(pin "6"
-			(uuid "4b3ec951-f9f6-4e09-ba4e-5d343db483f7")
+			(uuid "4b3ec951-f9f6-4e09-ba4e-5d343db483fb")
 		)
 		(pin "7"
-			(uuid "5be24e67-9ecc-4112-9087-7a2ead99f9a0")
+			(uuid "5be24e67-9ecc-4112-9087-7a2ead99f9a4")
 		)
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
 					(reference "U2")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 106.68 234.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf5a551e-7517-443e-a40c-bc78c416f1c9")
+		(property "Reference" "H4"
+			(at 109.22 233.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 109.22 236.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 106.68 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 106.68 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ieee-sign"
+				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 106.68 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d418a09c-ac68-4fe6-b898-46c391292604")
+		(property "Reference" "H1"
+			(at 109.22 218.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 109.22 220.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 106.68 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 106.68 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ieee-sign"
+				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
+					(reference "H1")
+					(unit 1)
 				)
 			)
 		)
@@ -9942,7 +11636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dedd3cd5-bea8-4768-a833-a0e6d563dcff")
-		(property "Reference" "C5"
+		(property "Reference" "C8"
 			(at 96.52 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9964,7 +11658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 93.6752 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -9997,6 +11691,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "C0603C200J5GACTU"
+			(at 92.71 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 92.71 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "399-C0603C200J5GACTUCT-ND"
+			(at 92.71 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e8e7fb20-4381-4078-8908-593ade3ded44")
 		)
@@ -10006,159 +11733,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle")
-		(at 342.9 106.68 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df593c2e-bcfe-4d8d-b520-49e042f79961")
-		(property "Reference" "J2"
-			(at 354.33 109.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "USB_C_Receptacle"
-			(at 354.33 111.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 339.09 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 339.09 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB Full-Featured Type-C Receptacle connector"
-			(at 342.9 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A4"
-			(uuid "34004ef2-d991-439a-a54d-ae416d676c6c")
-		)
-		(pin "A6"
-			(uuid "21e6c665-52ff-42c0-a726-29a098f08db4")
-		)
-		(pin "B9"
-			(uuid "b59ce909-b4d9-4992-90fd-ce2a2367e7a6")
-		)
-		(pin "B10"
-			(uuid "3e4e5ad0-182c-4590-8993-71d61e337d72")
-		)
-		(pin "B7"
-			(uuid "e50bac35-4b4e-4594-92eb-d1eb8cffcecd")
-		)
-		(pin "A5"
-			(uuid "e8e2cf21-f00a-42d5-92b6-0c59ff3373fa")
-		)
-		(pin "A2"
-			(uuid "5cd69265-32b9-48cc-8f1f-15ee184f15c4")
-		)
-		(pin "B12"
-			(uuid "d96e719e-3683-487b-a6f0-9bca48454f0e")
-		)
-		(pin "B11"
-			(uuid "838af640-41e7-40a5-8867-3731c532aca2")
-		)
-		(pin "B5"
-			(uuid "44af99a8-93b8-426d-847f-55310fd17985")
-		)
-		(pin "A3"
-			(uuid "1e41c592-9b1b-4832-9b3a-0becd6359eee")
-		)
-		(pin "B8"
-			(uuid "8d0d61fb-51ec-463e-87b3-71e4dfa6767f")
-		)
-		(pin "B6"
-			(uuid "6970bf63-d5c5-4332-970f-706572a15943")
-		)
-		(pin "SH"
-			(uuid "d3de0978-58fc-4751-b4cf-e4374dd24a28")
-		)
-		(pin "A7"
-			(uuid "c21993d1-b07e-43ae-a59b-441503639680")
-		)
-		(pin "A8"
-			(uuid "be90fc9c-195c-4872-920a-62f4a74862a4")
-		)
-		(pin "A9"
-			(uuid "148e0425-4bc0-4acf-8dff-1dd9061ad63d")
-		)
-		(pin "A10"
-			(uuid "492c2824-8770-4a94-85ef-8b467785822b")
-		)
-		(pin "A11"
-			(uuid "4af49fc9-1ce2-44f8-b8ed-616148ef08a1")
-		)
-		(pin "A12"
-			(uuid "0d5f75e5-a30d-45fe-813e-2d85a01cdc32")
-		)
-		(pin "B1"
-			(uuid "88bf3df7-2f49-4e2b-bb48-dd2b14af670f")
-		)
-		(pin "B2"
-			(uuid "7d810799-3bc7-4433-bd61-d425aa3db0eb")
-		)
-		(pin "B3"
-			(uuid "2bbc4f70-96b8-4455-bb0f-72cbc4119aa2")
-		)
-		(pin "B4"
-			(uuid "1498f28f-b177-43ef-a002-4ec83ea25661")
-		)
-		(pin "A1"
-			(uuid "7a42ee63-8c2b-4c18-a1cd-5dc36f39f36c")
-		)
-		(instances
-			(project "ieee-sign"
-				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "J2")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10176,7 +11751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e34c7961-c6d0-4ad3-9968-4af0c71098d8")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR013"
 			(at 77.47 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10236,7 +11811,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR07")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10273,7 +11848,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 173.99 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10297,6 +11872,39 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 173.99 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 173.99 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 173.99 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 173.99 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10355,7 +11963,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
 			(at 217.17 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -10378,6 +11986,39 @@
 			)
 		)
 		(property "Description" "Atmel 6-pin ISP connector"
+			(at 223.52 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "61200621621"
+			(at 223.52 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 223.52 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "732-5394-ND"
 			(at 223.52 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10427,7 +12068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f12076c4-f74d-47d1-a1c7-3d59bddb1921")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 151.13 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10487,7 +12128,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10527,7 +12168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 191.4652 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10560,6 +12201,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "C1206C104K5RACTU"
+			(at 190.5 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 190.5 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "399-C1206C104K5RACTUCT-ND"
+			(at 190.5 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2d76ac9a-9c34-4e02-afa6-80ab45e97c86")
 		)
@@ -10570,6 +12244,82 @@
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 106.68 224.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb75f82d-d8e5-44de-a612-04105e0b5385")
+		(property "Reference" "H2"
+			(at 109.22 223.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 109.22 226.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 106.68 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 106.68 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ieee-sign"
+				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -10587,7 +12337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd1400f8-743c-4135-b67b-57d3a932cae7")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR028"
 			(at 255.27 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -10647,7 +12397,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR024")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10659,13 +12409,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fefc525c-a3d3-4a8d-887c-201dcdc67af2")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 274.3199 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10687,7 +12437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 280.67 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10720,13 +12470,46 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 275.59 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 275.59 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 275.59 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5da22454-0413-40a7-b90d-689eb5978951")
 		)
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -10744,7 +12527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff18b3ac-ab27-4eff-afd6-0e4a905a6731")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR026"
 			(at 255.27 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -10804,7 +12587,7 @@
 		(instances
 			(project "ieee-sign"
 				(path "/13ce365d-1ebc-4b37-b0cf-a22bb69a2d67"
-					(reference "#PWR021")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
