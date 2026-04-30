@@ -49907,6 +49907,88 @@
 		(layer "Edge.Cuts")
 		(uuid "a1adb78e-3206-4bcb-b620-8497f670ecda")
 	)
+	(gr_text "CC1"
+		(at 56.5 164.25 0)
+		(layer "F.SilkS")
+		(uuid "dfca56d5-c240-451f-8691-f2e644c62da7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "CC2"
+		(at 56.5 168.25 0)
+		(layer "F.SilkS")
+		(uuid "c1c350c0-0f03-4330-9ef1-99fb23b1bbca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "+5V"
+		(at 81.1 154.3 0)
+		(layer "F.SilkS")
+		(uuid "e602c022-ee5e-4232-ba13-76144b3fd180")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 87.15 154.3 0)
+		(layer "F.SilkS")
+		(uuid "2b51be5d-460f-417a-a26f-b0f39ed488a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "LED Signal"
+		(at 92.25 174.9 0)
+		(layer "F.SilkS")
+		(uuid "b433dc26-4fed-46d5-95d4-dc6de60918a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "Mode"
+		(at 89.4 147.2 90)
+		(layer "F.SilkS")
+		(uuid "1162bb3d-1a1e-4d97-9407-820bfd583e63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "Reset"
+		(at 94.2 185.4 90)
+		(layer "F.SilkS")
+		(uuid "f8381b9b-e485-4eba-801d-540861d468a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(gr_text "Revision 2.0\nSign Designed by:\nKyle Schmerge"
 		(at 62 121 0)
 		(layer "F.SilkS")
