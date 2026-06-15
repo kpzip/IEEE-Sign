@@ -37575,6 +37575,12 @@
 		(path "/17a13c04-2280-4149-8c11-9800c72700cb")
 		(sheetname "/")
 		(sheetfile "ieee-sign.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
