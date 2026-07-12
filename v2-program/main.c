@@ -107,6 +107,9 @@ void setup() {
     PORTD |= (1 << PORTD0);  // Enable internal pull-up resistor
 	EICRA |= (1 << ISC01);
     EICRA &= ~(1 << ISC00);
+	// Writing the sense-control bits above can set INTF0; clear it so we
+	// don't service a phantom "button press" the instant sei() runs.
+	EIFR |= (1 << INTF0);
 	EIMSK |= (1 << INT0);
 
 	
@@ -137,9 +140,9 @@ ISR(INT0_vect) {
 
     if (bit_is_clear(PIND, PIND0)) {
 		program += 1;
-		if (program > 4) {
-			program = 0;
-		}
+		// if (program > 6) {
+		// 	program = 0;
+		// }
     }
     
     EIFR |= (1 << INTF0);
@@ -194,8 +197,8 @@ void set_solid(Color c, Color * colors, int colors_len) {
 }
 
 void candy_cane() {
-	strip[STRIP_LEN - 1] = gold;
-	for (int i = 0; i < STRIP_LEN - 1; i++) {
+	// strip[STRIP_LEN - 1] = gold;
+	for (int i = 0; i < STRIP_LEN; i++) {
 		strip[i] = randbool() ? red : white;
 	}
 	show(strip, STRIP_LEN);
@@ -213,15 +216,15 @@ void candy_cane2() {
 }
 
 void solid_green() {
-	strip[STRIP_LEN - 1] = gold;
-	set_solid(green, strip, STRIP_LEN - 1);
+	// strip[STRIP_LEN - 1] = gold;
+	set_solid(green, strip, STRIP_LEN);
 	show(strip, STRIP_LEN);
 	_delay_ms(250);
 }
 
 void solid_white() {
-	strip[STRIP_LEN - 1] = gold;
-	set_solid(white, strip, STRIP_LEN - 1);
+	// strip[STRIP_LEN - 1] = gold;
+	set_solid(white, strip, STRIP_LEN);
 	show(strip, STRIP_LEN);
 	_delay_ms(250);
 }
@@ -251,8 +254,8 @@ void white_wave() {
 static bool green_red_state = false;
 
 void green_red() {
-	strip[STRIP_LEN - 1] = gold;
-	for (int i = 0; i < STRIP_LEN - 1; i++) {
+	// strip[STRIP_LEN - 1] = gold;
+	for (int i = 0; i < STRIP_LEN; i++) {
 		if ((i + green_red_state) % 2 == 0) {
 			strip[i] = green;
 		}
@@ -263,6 +266,24 @@ void green_red() {
 	show(strip, STRIP_LEN);
 	_delay_ms(250);
 	green_red_state = !green_red_state;
+}
+
+const Color dark = { .r = 10, .g = 10, .b = 10 };
+
+void low_brightness() {
+	for (int i = 0; i < STRIP_LEN; i++) {
+		strip[i] = dark;
+	}
+	show(strip, STRIP_LEN);
+	_delay_ms(250);
+}
+
+void all_off() {
+	for (int i = 0; i < STRIP_LEN; i++) {
+		strip[i] = off;
+	}
+	show(strip, STRIP_LEN);
+	_delay_ms(250);
 }
 
 static float hue_val = 0.0;
@@ -357,18 +378,46 @@ int main(void) {
 					cycle();
 					break;
 
-				case 2:
+				case 1:
 					rgb();
 					break;
-					
-				case 3:
+
+				case 2:
 					bugged_but_cool_cycle();
 					break;
-					
-				case 4:
+
+				case 3:
 					death();
 					break;
-					
+
+				case 4:
+					candy_cane2();
+					break;
+
+				case 5:
+					candy_cane();
+					break;
+
+				case 6:
+					green_red();
+					break;
+				
+				case 7:
+					solid_green();
+					break;
+
+				case 8:
+					solid_white();
+					break;
+
+				case 9:
+					low_brightness();
+					break;
+
+				case 10:
+					all_off();
+					break;
+
 				default:
 					program = 0;
 					break;
